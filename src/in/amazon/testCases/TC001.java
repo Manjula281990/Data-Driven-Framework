@@ -34,6 +34,8 @@ import in.amazon.pageObjects.UserName;
 			driver.quit();
 		}*/
 		
+		// this is the comment added 
+		
 		@Test(groups = {"smoke","regression"})
 		  public void laptop() throws Exception {
 			driver = Browser.getObject(ObjectRepo.browserName);
