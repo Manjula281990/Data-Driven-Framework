@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Testing">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="in.amazon.testCases.TC002"/>
+      <class name="in.amazon.testCases.TC001"/>
+      <class name="in.amazon.testCases.TC003"/>
+    </classes>
+  </test> <!-- Testing -->
+  <test parallel="methods" name="Testing(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="in.amazon.testCases.TC001">
+        <methods>
+          <include name="laptop"/>
+        </methods>
+      </class> <!-- in.amazon.testCases.TC001 -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

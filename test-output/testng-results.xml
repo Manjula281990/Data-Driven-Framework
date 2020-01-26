@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-24T13:01:03Z" name="Default suite" finished-at="2019-12-24T13:02:25Z" duration-ms="82214">
+    <groups>
+      <group name="regression">
+        <method signature="TC001.laptop()[pri:0, instance:in.amazon.testCases.TC001@61df66b6]" name="laptop" class="in.amazon.testCases.TC001"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC001.laptop()[pri:0, instance:in.amazon.testCases.TC001@61df66b6]" name="laptop" class="in.amazon.testCases.TC001"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2019-12-24T13:01:03Z" name="Default test" finished-at="2019-12-24T13:02:25Z" duration-ms="82214">
+      <class name="in.amazon.testCases.TC001">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:in.amazon.testCases.TC001@61df66b6]" started-at="2019-12-24T18:31:03Z" name="beforeMethod" finished-at="2019-12-24T18:31:40Z" duration-ms="36396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="laptop()[pri:0, instance:in.amazon.testCases.TC001@61df66b6]" started-at="2019-12-24T18:31:40Z" name="laptop" finished-at="2019-12-24T18:32:25Z" duration-ms="45801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptop -->
+      </class> <!-- in.amazon.testCases.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
